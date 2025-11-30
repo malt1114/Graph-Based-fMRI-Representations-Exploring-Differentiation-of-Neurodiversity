@@ -10,7 +10,7 @@ ABIDE II: s3://fcp-indi/data/Projects/ABIDE2/RawData/ABIDEII-NYU_1
 ADHD-200: s3://fcp-indi/data/Projects/ADHD200/RawDataBIDS/NYU
 
 # C-PAC
-The data used in this paper, originates from the data sources above. However, due to storage limits on GitHub, the data would have to be processed locally. As such, use the default pipeline in the "C-PAC" folder, along side the C-PAC Docker or Singularity container.
+The data used in this paper, originates from the data sources above. However, due to storage limits on GitHub, the data should be obtained by running scripts locally. This can be done though the use of the default pipeline in the "C-PAC" folder, alongside the C-PAC Docker or Singularity container.
 
 For more information about C-PAC and how to set up see: https://fcp-indi.github.io/docs/latest/user/quick.html
 
@@ -48,7 +48,7 @@ For more information about C-PAC and how to set up see: https://fcp-indi.github.
 │   ├── baselines/ the baseline logistic and random models scripts
 │   ├── GAT Scripts/ the scripts used for the GAT sweep
 │   ├── GCN scripts/ the scripts used for the GCN sweep
-│   ├── help_funcs/ different scripts with help functions for model traning and evaluation
+│   ├── help_funcs/ different scripts with help functions for model training and evaluation
 │   ├── models/ GAT and GCN architecture scripts
 │   ├── pics/ evaluation pictures
 │   └── saved_models/ the best GAT and GCN models + hyperparameters
